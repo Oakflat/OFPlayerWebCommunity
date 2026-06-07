@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect /path/ → /path so canonical URLs stay consistent.
+# Must use force=true so it fires even when a directory index file exists.
+[[redirects]]
+  from = "/*/"
+  to = "/:splat"
+  status = 301
+  force = true
+
+# SPA fallback — serve index.html for any path with no matching static file.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

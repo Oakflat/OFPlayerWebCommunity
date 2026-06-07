@@ -1,0 +1,2 @@
+# Redirect and SPA fallback rules are defined in netlify.toml.
+# This file is intentionally left without rules to avoid conflicts.

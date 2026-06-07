@@ -1,0 +1,256 @@
+/**
+ * Material Design 主题样式
+ * 大胆鲜明的 Material Design 3 风格
+ */
+
+/* Material 主题变量 */
+[data-theme='material'] {
+  /* ===== 主色系统 - Material 3 大胆配色 ===== */
+  --primary: #6750a4;
+  --primary-light: #d0bcff;
+  --primary-dark: #381e72;
+  --primary-container: #eaddff;
+  --on-primary: #ffffff;
+
+  /* ===== 次要色 ===== */
+  --secondary: #625b71;
+  --secondary-light: #ccc2dc;
+  --secondary-dark: #332d41;
+  --secondary-container: #e8def8;
+
+  /* ===== 第三色 - 青绿色强调 ===== */
+  --tertiary: #00bfa5;
+  --tertiary-light: #80cbc4;
+  --tertiary-dark: #00897b;
+  --tertiary-container: #b2dfdb;
+
+  /* ===== 核心颜色系统 ===== */
+  --ink: #1c1b1f;
+  --ink-soft: #49454f;
+  --ink-muted: #79747e;
+  --ink-subtle: #a8a29e;
+
+  /* ===== 边框颜色 ===== */
+  --line: rgba(28, 27, 31, 0.12);
+  --line-soft: rgba(28, 27, 31, 0.08);
+  --line-strong: rgba(28, 27, 31, 0.2);
+
+  /* ===== 表面颜色 - 带有主色色调 ===== */
+  --surface-shell: #fffbfe;
+  --surface-sidebar: #f7f2fa;
+  --surface-main: #ffffff;
+  --surface-panel: #fffbfe;
+  --surface-variant: #e7e0ec;
+
+  /* 兼容变量映射 - 与 Tauri 版本统一 */
+  --surface-base: #fcfaff;
+  --surface-elevated: #ffffff;
+  --surface-overlay: #f6f1fa;
+
+  /* ===== 状态表面色 - 带主色色调 ===== */
+  --surface-hover: rgba(103, 80, 164, 0.08);
+  --surface-active: var(--primary-container);
+  --surface-dim: rgba(250, 247, 254, 0.88);
+  --surface-card: rgba(255, 251, 254, 0.95);
+
+  /* ===== 交互状态 - Material 3 状态层 ===== */
+  --focus-ring: rgba(103, 80, 164, 0.12);
+  --selection-bg: rgba(103, 80, 164, 0.2);
+  --state-layer-hover: rgba(103, 80, 164, 0.08);
+  --state-layer-pressed: rgba(103, 80, 164, 0.12);
+
+  /* ===== 内部装饰 ===== */
+  --border-inner: rgba(255, 255, 255, 0.95);
+  --highlight-top: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.98), transparent);
+
+  /* ===== 错误色 ===== */
+  --error: #b3261e;
+  --error-container: #f9dedc;
+
+  /* ===== 阴影系统 - 带主色色调 ===== */
+  --shadow-shell:
+    0 8px 10px -5px rgba(103, 80, 164, 0.2), 0 16px 24px 2px rgba(103, 80, 164, 0.14),
+    0 6px 30px 5px rgba(103, 80, 164, 0.12);
+  --shadow-soft:
+    0 3px 5px -1px rgba(103, 80, 164, 0.2), 0 6px 10px 0 rgba(103, 80, 164, 0.14),
+    0 1px 18px 0 rgba(103, 80, 164, 0.12);
+  --shadow-sm:
+    0 2px 4px -1px rgba(103, 80, 164, 0.2), 0 4px 5px 0 rgba(103, 80, 164, 0.14),
+    0 1px 10px 0 rgba(103, 80, 164, 0.12);
+
+  /* ===== 圆角 ===== */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+
+  /* ===== Material Elevation System - 带主色色调 ===== */
+  --elevation-1: 0 1px 2px rgba(103, 80, 164, 0.3), 0 1px 3px 1px rgba(103, 80, 164, 0.15);
+  --elevation-2: 0 1px 2px rgba(103, 80, 164, 0.3), 0 2px 6px 2px rgba(103, 80, 164, 0.15);
+  --elevation-3: 0 4px 8px 3px rgba(103, 80, 164, 0.15), 0 1px 3px rgba(103, 80, 164, 0.3);
+  --elevation-4: 0 6px 10px 4px rgba(103, 80, 164, 0.15), 0 2px 3px rgba(103, 80, 164, 0.3);
+  --elevation-5: 0 8px 12px 6px rgba(103, 80, 164, 0.15), 0 4px 4px rgba(103, 80, 164, 0.3);
+
+  /* ===== 滚动条 - 带主色色调 ===== */
+  --scrollbar-thumb-idle: rgba(103, 80, 164, 0);
+  --scrollbar-thumb-hover: rgba(103, 80, 164, 0.26);
+  --scrollbar-thumb-active: rgba(103, 80, 164, 0.38);
+}
+
+/* 覆盖全局背景 (重写 :root 默认渐变) */
+html[data-theme='material'] {
+  background: #eaddff; /* Material 风格背景 */
+}
+
+/* Material 特殊样式 */
+[data-theme='material'] .page-shell {
+  background: linear-gradient(135deg, #f7f2fa 0%, #fffbfe 50%, #eaddff 100%);
+}
+
+[data-theme='material'] .player-shell {
+  background: var(--surface-shell);
+  box-shadow: var(--elevation-3);
+  border-radius: var(--radius-xl);
+  border: none;
+}
+
+[data-theme='material'] .panel-sidebar {
+  background: var(--surface-sidebar);
+  border-right: 1px solid var(--line-soft);
+}
+
+/* Material 按钮样式 - 更大胆的配色 */
+[data-theme='material'] .button-primary,
+[data-theme='material'] .play-button {
+  background: var(--primary);
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  box-shadow: var(--elevation-1);
+  transition: all var(--transition-normal);
+}
+
+[data-theme='material'] .button-primary:hover,
+[data-theme='material'] .play-button:hover {
+  background: var(--primary-dark);
+  box-shadow: var(--elevation-2);
+}
+
+[data-theme='material'] .button-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-full);
+  font-weight: 500;
+}
+
+[data-theme='material'] .button-secondary:hover {
+  background: var(--primary-container);
+  border-color: var(--primary);
+}
+
+/* Material 卡片 - 带主色色调 */
+[data-theme='material'] .card,
+[data-theme='material'] .settings-panel-card {
+  background: var(--surface-panel);
+  box-shadow: var(--elevation-1);
+  border-radius: var(--radius-md);
+  border: none;
+  transition: all var(--transition-normal);
+}
+
+[data-theme='material'] .card:hover,
+[data-theme='material'] .settings-panel-card:hover {
+  box-shadow: var(--elevation-2);
+  transform: translateY(-2px);
+}
+
+/* Material 输入框 */
+[data-theme='material'] input[type='text'],
+[data-theme='material'] input[type='search'] {
+  background: var(--surface-variant);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  color: var(--ink);
+  transition: all var(--transition-normal);
+}
+
+[data-theme='material'] input[type='text']:focus,
+[data-theme='material'] input[type='search']:focus {
+  background: var(--surface-main);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(103, 80, 164, 0.12);
+}
+
+/* Material 歌曲项 */
+[data-theme='material'] .song-item {
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+[data-theme='material'] .song-item:hover {
+  background: var(--surface-variant);
+}
+
+[data-theme='material'] .song-item.is-active {
+  background: var(--primary-container);
+  border-left: 4px solid var(--primary);
+}
+
+/* Material 标签和徽章 */
+[data-theme='material'] .badge,
+[data-theme='material'] .sidebar-status-pill {
+  background: var(--tertiary);
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  box-shadow: var(--elevation-1);
+}
+
+/* 设置项激活状态 */
+[data-theme='material'] .settings-nav-item.is-active,
+[data-theme='material'] .settings-choice.is-active {
+  background: var(--primary-container);
+  color: var(--primary-dark);
+  border-color: var(--primary);
+}
+
+[data-theme='material'] .settings-nav-item.is-active span,
+[data-theme='material'] .settings-choice.is-active strong {
+  color: var(--primary-dark);
+}
+
+[data-theme='material'] .settings-toggle.is-active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+[data-theme='material'] .settings-toggle.is-active .settings-toggle-thumb {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 播放进度条和控件 */
+[data-theme='material'] .progress-fill {
+  background: var(--primary);
+}
+
+[data-theme='material'] .progress-thumb {
+  background: var(--primary);
+  box-shadow: var(--elevation-2);
+}
+
+[data-theme='material'] .control-button {
+  color: var(--ink-soft);
+}
+
+[data-theme='material'] .control-button:hover {
+  color: var(--primary);
+  background: var(--primary-container);
+}
+
+[data-theme='material'] .control-button.is-active {
+  color: var(--primary);
+}

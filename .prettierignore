@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.sisyphus/
+packages/
+*.md
+public/
+scripts/
+*.log

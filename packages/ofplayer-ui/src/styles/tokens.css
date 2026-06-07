@@ -1,0 +1,22 @@
+:root {
+  --of-ui-ink: #1a1f2e;
+  --of-ui-ink-soft: #485062;
+  --of-ui-ink-muted: #697386;
+  --of-ui-line: rgba(43, 55, 78, 0.12);
+  --of-ui-line-strong: rgba(43, 55, 78, 0.24);
+  --of-ui-shadow-soft: 0 18px 40px -22px rgba(26, 31, 46, 0.32);
+  --of-ui-radius-md: 0.875rem;
+  --of-ui-radius-lg: 1rem;
+  --of-ui-radius-xl: 1.5rem;
+  --of-ui-radius-full: 999px;
+  --of-ui-space-2: 0.5rem;
+  --of-ui-space-3: 0.75rem;
+  --of-ui-space-4: 1rem;
+  --of-ui-space-5: 1.25rem;
+  --of-ui-space-6: 1.5rem;
+  --of-ui-font-size-sm: 0.875rem;
+  --of-ui-font-size-base: 1rem;
+  --of-ui-font-size-xl: 1.25rem;
+  --of-ui-transition-fast: 150ms ease;
+  --of-ui-transition-normal: 220ms ease;
+}

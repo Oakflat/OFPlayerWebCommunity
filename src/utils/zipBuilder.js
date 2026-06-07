@@ -130,10 +130,10 @@ export async function buildZip(entries, options = {}) {
   const enc = new TextEncoder()
 
   /** CN: @type {(Uint8Array|Blob)[]} */
-/** EN: @type {(Uint8Array|Blob)[]} */
+  /** EN: @type {(Uint8Array|Blob)[]} */
   const parts = []
   /** CN: @type {Uint8Array[]} */
-/** EN: @type {Uint8Array[]} */
+  /** EN: @type {Uint8Array[]} */
   const cdParts = []
 
   let offset = 0

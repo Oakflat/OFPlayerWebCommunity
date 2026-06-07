@@ -558,7 +558,9 @@ onBeforeUnmount(() => {
 
                     <article class="settings-panel-card">
                       <div class="settings-panel-copy">
-                        <span class="settings-panel-label">{{ t('settings.fields.playerColor') }}</span>
+                        <span class="settings-panel-label">{{
+                          t('settings.fields.playerColor')
+                        }}</span>
                         <p>{{ t('settings.fields.playerColorCopy') }}</p>
                       </div>
 
@@ -566,7 +568,7 @@ onBeforeUnmount(() => {
                         :mode="playerColorMode"
                         :preset="playerColor"
                         :custom-colors="playerColorCustom"
-                          color-gate-state="enabled"
+                        color-gate-state="enabled"
                         @set-mode="emit('set-player-color-mode', $event)"
                         @set-preset="emit('set-player-color', $event)"
                         @set-custom-colors="emit('set-player-color-custom', $event)"

@@ -60,9 +60,7 @@
 
     <footer class="tool-page__footer">
       <div class="tool-page__footer-inner">
-        <p class="tool-page__footer-copy">
-          &copy; {{ currentYear }} OFPlayer Community.
-        </p>
+        <p class="tool-page__footer-copy">&copy; {{ currentYear }} OFPlayer Community.</p>
         <nav class="tool-page__footer-nav">
           <RouterLink to="/tools" class="tool-page__footer-link">{{
             t('tools.layout.footerAllTools')

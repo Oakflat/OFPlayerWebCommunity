@@ -349,7 +349,6 @@ watch(
           @open-immersive-player="openImmersivePlayer"
         />
       </section>
-
     </div>
 
     <Transition name="immersive">
@@ -530,5 +529,4 @@ watch(
 .skeleton-fade-leave-to {
   opacity: 0;
 }
-
 </style>

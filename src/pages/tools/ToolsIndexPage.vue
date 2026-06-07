@@ -102,9 +102,7 @@
     <!-- Footer -->
     <footer class="tools-index__footer">
       <div class="tools-index__footer-inner">
-        <p class="tools-index__footer-copy">
-          &copy; {{ currentYear }} OFPlayer Community.
-        </p>
+        <p class="tools-index__footer-copy">&copy; {{ currentYear }} OFPlayer Community.</p>
         <nav class="tools-index__footer-nav">
           <RouterLink to="/app" class="tools-index__footer-link">{{
             t('tools.layout.footerWebPlayer')

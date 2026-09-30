@@ -1,25 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55.12 50.24">
-  <defs>
-    <linearGradient id="_未命名的渐变_7" data-name="未命名的渐变 7" x1="0" y1="20.77" x2="32.72" y2="20.77" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00a99d"/>
-      <stop offset="1" stop-color="#29abe2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="622" height="771" viewBox="364 263.308604 622 770.691396"><title>OFPlayer refined geometric logo</title><defs>
+    <clipPath id="body-clip"><path d="M380 706 L380 413.308604 A134 134 0 0 1 581 297.2612 L885 472.775681 A170 170 0 0 1 885 767.224319 L636 910.984536 L636 840 C636 782 660 747.017059 708 719.304246 L766 685.817931 A76 76 0 0 0 766 554.182069 L624 472.198331 A32 32 0 0 0 576 499.911144 L576 706 A98 98 0 0 1 380 706 Z"/></clipPath>
+    <linearGradient id="gradient-stem-upper" gradientUnits="userSpaceOnUse" x1="348.765" y1="-144.341" x2="107.845" y2="-44.633" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#3097fd"/>
+      <stop offset="0.25" stop-color="#2592fd"/>
+      <stop offset="0.5" stop-color="#168afe"/>
+      <stop offset="0.75" stop-color="#057ffe"/>
+      <stop offset="1" stop-color="#0070fd"/>
     </linearGradient>
-    <linearGradient id="_未命名的渐变_11" data-name="未命名的渐变 11" x1="11.34" y1="28.44" x2="43.87" y2="28.44" gradientUnits="userSpaceOnUse">
-      <stop offset=".01" stop-color="#2e3192"/>
-      <stop offset="1" stop-color="aqua"/>
+    <linearGradient id="gradient-stem-middle" gradientUnits="userSpaceOnUse" x1="673.702" y1="557.332" x2="549.161" y2="454.304" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#3098fe"/>
+      <stop offset="0.25" stop-color="#168efe"/>
+      <stop offset="0.5" stop-color="#0683fd"/>
+      <stop offset="0.75" stop-color="#0077fd"/>
+      <stop offset="1" stop-color="#036afe"/>
     </linearGradient>
-    <linearGradient id="_未命名的渐变_18" data-name="未命名的渐变 18" x1="25.51" y1="36.05" x2="47.86" y2="36.05" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#245ca9"/>
-      <stop offset="1" stop-color="#04a9a3"/>
+    <linearGradient id="gradient-stem-lower" gradientUnits="userSpaceOnUse" x1="699.834" y1="585.947" x2="597.690" y2="500.426" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#37a6fe"/>
+      <stop offset="0.25" stop-color="#169afe"/>
+      <stop offset="0.5" stop-color="#038bfe"/>
+      <stop offset="0.75" stop-color="#0078fe"/>
+      <stop offset="1" stop-color="#0761fe"/>
     </linearGradient>
-    <linearGradient id="_未命名的渐变_22" data-name="未命名的渐变 22" x1="40.59" y1="42.98" x2="55.12" y2="42.98" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#29abe2"/>
-      <stop offset="1" stop-color="#09d6e9"/>
+    <linearGradient id="gradient-tail" gradientUnits="userSpaceOnUse" x1="3.135" y1="-3.565" x2="-161.995" y2="184.233" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#0187fd"/>
+      <stop offset="0.25" stop-color="#017ffd"/>
+      <stop offset="0.5" stop-color="#0075fd"/>
+      <stop offset="0.75" stop-color="#0069fd"/>
+      <stop offset="1" stop-color="#015bfd"/>
     </linearGradient>
-  </defs>
-  <path d="M32.69.66c-.52-.99-3.4-.62-4.78-.44C12.69,2.29.76,15.18.02,30.44c-.04,3.38-.18,8.4,1.83,10.99,1.23.67,2.21-2.04,2.79-3.2C10.21,24.91,19.01,13.13,30.03,4.05c.98-.9,2.84-2.26,2.68-3.33l-.02-.06Z" fill="url(#_未命名的渐变_7)"/>
-  <path d="M43.85,8.57c-1.29-1.55-5.5-.34-7.57.08-16.43,3.87-27.69,21.04-24.36,37.59.53,2.4,1.49,4.09,3.21,1.63,6.1-12.75,13.76-25.05,24.64-34.22,1.34-1.36,4.2-3.23,4.09-5.02l-.02-.06Z" fill="url(#_未命名的渐变_11)"/>
-  <path d="M47.83,22.48c-1.36-1.5-5.08.11-6.98.74-8.3,3.19-14.36,11.08-15.2,19.95-.22,1.83-.54,9.36,2.62,6.39,1.25-1.35,2.4-3.6,3.39-5.35,3.04-5.58,6.87-10.73,11.34-15.23,1.5-1.78,4.95-4.21,4.87-6.44l-.03-.06Z" fill="url(#_未命名的渐变_18)"/>
-  <circle cx="47.86" cy="42.98" r="7.27" fill="url(#_未命名的渐变_22)"/>
-</svg>
+    <linearGradient id="gradient-turn" gradientUnits="userSpaceOnUse" x1="-45.634" y1="368.426" x2="-78.175" y2="631.147" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#63b8fd"/>
+      <stop offset="0.25" stop-color="#50aefd"/>
+      <stop offset="0.5" stop-color="#3ea3fd"/>
+      <stop offset="0.75" stop-color="#2d99fe"/>
+      <stop offset="1" stop-color="#1c8ffe"/>
+    </linearGradient>
+    <linearGradient id="gradient-top-ribbon" gradientUnits="userSpaceOnUse" x1="70.793" y1="-99.179" x2="-9.049" y2="12.678" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#aadefd"/>
+      <stop offset="0.25" stop-color="#9ed9fd"/>
+      <stop offset="0.5" stop-color="#91d3fd"/>
+      <stop offset="0.75" stop-color="#81cbfd"/>
+      <stop offset="1" stop-color="#71c2fd"/>
+    </linearGradient>
+    <radialGradient id="gradient-note-dot" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="205.384" gradientTransform="translate(578.500 933.000) scale(1 1.028278)" color-interpolation="sRGB">
+      <stop offset="0" stop-color="#68c3fe"/>
+      <stop offset="0.056064" stop-color="#67c2fd"/>
+      <stop offset="0.166337" stop-color="#65bffd"/>
+      <stop offset="0.27661" stop-color="#59bafe"/>
+      <stop offset="0.386882" stop-color="#45b0fe"/>
+      <stop offset="0.497155" stop-color="#2fa5fe"/>
+      <stop offset="0.607428" stop-color="#1198fe"/>
+      <stop offset="0.717701" stop-color="#008cfe"/>
+      <stop offset="0.827974" stop-color="#017afe"/>
+      <stop offset="0.938247" stop-color="#0068fe"/>
+      <stop offset="1" stop-color="#005efd"/>
+    </radialGradient>
+  </defs><g clip-path="url(#body-clip)">
+<path fill="url(#gradient-stem-upper)" d="M380 706 L380 413.308604 A134 134 0 0 1 581 297.2612 L885 472.775681 A170 170 0 0 1 885 767.224319 L636 910.984536 L636 840 C636 782 660 747.017059 708 719.304246 L766 685.817931 A76 76 0 0 0 766 554.182069 L624 472.198331 A32 32 0 0 0 576 499.911144 L576 706 A98 98 0 0 1 380 706 Z"/>
+<path fill="url(#gradient-stem-middle)" d="M576 522 C505 548 390 589 380 679 L360 830 H585 Z"/>
+<path fill="url(#gradient-stem-lower)" d="M393 754 C408 706 448 665 501 665 C532 665 558 679 576 702 L590 820 H360 Z"/>
+<path fill="url(#gradient-tail)" d="M620 250 H1020 V940 H620 Z"/>
+<path fill="url(#gradient-turn)" d="M885 472.775681 H1020 V820 L885 767.224319 C840 752 800 731 758 702 L720 670 V580 L798 590 C821 546 849 496 885 472.775681 Z"/>
+<path fill="url(#gradient-top-ribbon)" d="M480 250 H885 V472.775681 C849 496 821 546 798 590 L624 472.198331 C581 446 428 354 480 280 Z"/>
+</g><circle cx="478" cy="920" r="98" fill="url(#gradient-note-dot)"/></svg>

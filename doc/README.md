@@ -1,4 +1,5 @@
-# OFPlayer Community Web Docs
+# 网页社区版文档
 
-Historical private planning notes were removed from this public community branch.
-Runtime documentation for the community web build lives in `public/docs`, and user tutorials live in `public/tutorials`.
+第一次在浏览器里加歌或整理歌单，先看[使用教程](../public/tutorials/)。需要查播放器中的说明内容，打开[随网站提供的文档](../public/docs/)。
+
+想在本机启动播放器，按[项目首页的快速开始](../README.md#快速开始)运行开发服务。
